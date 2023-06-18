@@ -67,4 +67,25 @@ ul {
     height: auto; 
 }
 
+.information {
+    text-align: center;
+}
 
+.information-title {
+    margin-top: 30px;
+    font-size: 48px;
+    margin-bottom: 30px;
+    font-weight: bolder;
+}
+
+.information-container {
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    gap: 13px; 
+}
+
+img {
+    width: 300px; 
+    height: auto;   
+}
