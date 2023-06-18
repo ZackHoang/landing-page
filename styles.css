@@ -25,12 +25,8 @@ ul {
     font-weight: bold;
 }
 
-.filler {
-    background-color: #A6192E;
-}
-
 .header-body {
-    margin-top: -2px; 
+    margin-top: 0px; 
     display: flex; 
     justify-content: center;
     align-items: center;
@@ -88,4 +84,22 @@ ul {
 img {
     width: 300px; 
     height: auto;   
+}
+
+.quote {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    gap: 30px;
+    background-color: #E5E7EB;
+}
+
+.quote-text {
+    font-size: 36px; 
+}
+
+.quote-author {
+    font-size: 18px;
 }
